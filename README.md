@@ -24,4 +24,8 @@ public class RoleService : IRoleService
             .Select(ur => ur.Role.Name)
             .ToListAsync();
     }
-}```
+}
+```
+# Process of user Authentication and Authorization
+- **name** : There will be name here of the user after login to the app.
+- new item: new item will here
