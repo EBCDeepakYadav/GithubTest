@@ -5,7 +5,7 @@ Initializes a new instance of the `AuthRole` and `RoleVerify` class.
 - **userAuthService**: The service responsible for handling user authentication operations.
 - **logger**: The logger instance used to log messages for the `UserAuthController`.
 - **config**: The application configuration settings.
- <span style="color:green">The application configuration settings.</span>
+ **userRoleService :**: The service responsible for handling user role operations.
 
 ```C#
 public class RoleService : IRoleService
