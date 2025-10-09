@@ -26,6 +26,7 @@ public class RoleService : IRoleService
     }
 }
 ```
-# Process of user Authentication and Authorization
+## Process of user Authentication and Authorization
+###  Authorization
 - **name** : There will be name here of the user after login to the app.
 - new item: new item will here
