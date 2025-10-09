@@ -6,7 +6,7 @@ Initializes a new instance of the `UserAuthController` class.
 - **logger**: The logger instance used to log messages for the `UserAuthController`.
 - **config**: The application configuration settings.
 
-```
+```C#
 
 public class RoleService : IRoleService
 {
