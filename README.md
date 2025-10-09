@@ -1,6 +1,6 @@
 # XML Documentation
 ## Summary
-Initializes a new instance of the `UserAuthController` class.
+Initializes a new instance of the `AuthRole` and `RoleVerify` class.
 ## Parameters
 - **userAuthService**: The service responsible for handling user authentication operations.
 - **logger**: The logger instance used to log messages for the `UserAuthController`.
