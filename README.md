@@ -30,16 +30,36 @@ public class RoleService : IRoleService
 - new item: new item will here
 
 ## New block
-  <summary>
- Initializes a new instance of the <see cref="UserAuthController"/> class.
- </summary>
-  <param name="userAuthService">The service responsible for handling user authentication operations.</param>
- <param name="logger">The logger instance used to log messages for the <see cref="UserAuthController"/>.</param>
- <param name="config">The application configuration settings.</param>
 
- /// <summary>
- /// Initializes a new instance of the <see cref="UserAuthController"/> class.
- /// </summary>
- /// <param name="userAuthService">The service responsible for handling user authentication operations.</param>
- /// <param name="logger">The logger instance used to log messages for the <see cref="UserAuthController"/>.</param>
- /// <param name="config">The application configuration settings.</param>
+- **item** : there will be item here
+- **Item2** : there will be item2 here
+## New block 2
+### requirements for new block 2
+- .Net core 6.0
+- C#
+- Entity Framework Core
+- SQL Server
+- ASP.NET Core Identity
+- JWT (JSON Web Tokens)
+- AutoMapper
+- Swagger (for API documentation)
+- xUnit (for unit testing)
+- Moq (for mocking in tests)
+- FluentValidation (for input validation)
+- Serilog (for logging)
+- Redis (for caching, optional)
+- Docker (for containerization, optional)
+- Kubernetes (for orchestration, optional)
+- Git (for version control)
+- GitHub or GitLab (for repository hosting)
+- Postman (for API testing)
+- Visual Studio or VS Code (for development)
+- Azure DevOps or GitHub Actions (for CI/CD)
+- NUnit (for unit testing, alternative to xUnit)
+- MSTest (for unit testing, alternative to xUnit)
+- NSubstitute (for mocking in tests, alternative to Moq)
+- Bogus (for generating fake data in tests)
+- Polly (for resilience and transient-fault-handling)
+- HealthChecks (for monitoring application health)
+- OpenTelemetry (for observability and tracing)
+- New Relic or Application Insights (for performance monitoring)
