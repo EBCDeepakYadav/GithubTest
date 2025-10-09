@@ -7,7 +7,6 @@ Initializes a new instance of the `UserAuthController` class.
 - **config**: The application configuration settings.
 
 ```C#
-
 public class RoleService : IRoleService
 {
     private readonly YourDbContext _context;
@@ -15,7 +14,6 @@ public class RoleService : IRoleService
     {
         _context = context;
     }
-
     public async Task<List<string>> GetUserRolesAsync(string username) -- Done
     {
         // Adjust this query to match your schema
@@ -38,3 +36,10 @@ public class RoleService : IRoleService
   <param name="userAuthService">The service responsible for handling user authentication operations.</param>
  <param name="logger">The logger instance used to log messages for the <see cref="UserAuthController"/>.</param>
  <param name="config">The application configuration settings.</param>
+
+ /// <summary>
+ /// Initializes a new instance of the <see cref="UserAuthController"/> class.
+ /// </summary>
+ /// <param name="userAuthService">The service responsible for handling user authentication operations.</param>
+ /// <param name="logger">The logger instance used to log messages for the <see cref="UserAuthController"/>.</param>
+ /// <param name="config">The application configuration settings.</param>

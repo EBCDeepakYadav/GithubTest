@@ -1,1 +1,46 @@
-/.vs
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+
+# Visual Studio settings
+*.vs/
+.vs/
+
+# ASP.NET secrets
+secrets.json
+*.pfx
+
+# Configuration files
+appsettings.Development.json
+appsettings.Local.json
+.env
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Entity Framework
+Migrations/
+
+# Node.js (if using frontend with React/Angular)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Others
+*.DS_Store
+Thumbs.db

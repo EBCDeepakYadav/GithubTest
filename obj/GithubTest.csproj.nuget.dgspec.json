@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\NetCore\\GithubTest\\GithubTest.csproj",
         "projectName": "GithubTest",
         "projectPath": "D:\\NetCore\\GithubTest\\GithubTest.csproj",
-        "packagesPath": "C:\\Users\\deepak.yadav\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\DEEPAK.YADAV\\.nuget\\packages\\",
         "outputPath": "D:\\NetCore\\GithubTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\deepak.yadav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DEEPAK.YADAV\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
