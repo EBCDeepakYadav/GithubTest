@@ -32,9 +32,9 @@ public class RoleService : IRoleService
 - new item: new item will here
 
 ## New block
- /// <summary>
- /// Initializes a new instance of the <see cref="UserAuthController"/> class.
- /// </summary>
- /// <param name="userAuthService">The service responsible for handling user authentication operations.</param>
- /// <param name="logger">The logger instance used to log messages for the <see cref="UserAuthController"/>.</param>
- /// <param name="config">The application configuration settings.</param>
+  <summary>
+ Initializes a new instance of the <see cref="UserAuthController"/> class.
+ </summary>
+  <param name="userAuthService">The service responsible for handling user authentication operations.</param>
+ <param name="logger">The logger instance used to log messages for the <see cref="UserAuthController"/>.</param>
+ <param name="config">The application configuration settings.</param>
