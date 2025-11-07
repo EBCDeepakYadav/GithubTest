@@ -1,0 +1,83 @@
+<link rel='stylesheet' href='https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css'>
+<body>
+    
+    <div class="pageHeading d-flex">
+        <div class="row w-100 mx-0">
+            <div class="col-sm-6 h-100 d-flex align-items-center pageTitle">Coupon Request List</div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-4 position-relative d-inline-block">
+        <div class="row mx-0 bg_light py-3 shadow_box">
+            <div class="col-md-12 px-3">
+                <div class="p-3 bg-white pb-0">
+                    <div class="row">
+                        <div class="col-xxl-3 col-xl-3 col-md-6 mb-3">
+                            <label for="datepickerfrom" class="form-label w-100">From <small>(mm/dd/yyyy)</small></label>
+                            <input type="text" class="form-control" id="datepickerfrom" placeholder="">
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-md-6 mb-3">
+                            <label for="datepickerto" class="form-label w-100">To <small>(mm/dd/yyyy)</small></label>
+                            <input type="text" class="form-control" id="datepickerto" placeholder="">
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-md-6 mb-3">
+                            <label class="form-label w-100 d-md-block d-none">&nbsp;</label>
+                            <button class="d-inline-block btn btn-danger btn-large" id="btnShowRecord" style="padding-top:3px; padding-bottom:3px;">Show Records</button>                        
+                        </div>
+                    </div>
+                    <div class="h-divider my-2 mt-3 sub-divider">
+                        <div class="shadow_divider"></div>
+                    </div>
+                    <div class="w-100 d-inline-block">
+                        <div class="row px-3">
+                            <div class="col-md-6 d-flex align-items-center ps-0">
+                                <div id="searchCouponRequestList" class="d-block float-start mb-3"></div>
+                            </div>
+                            <div id="couponRequestListLength" class="col-md-6 d-flex align-items-center justify-content-md-end pe-0">
+                                <div class="d-block float-end mb-3 pageLength"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tableWrapper p-0 shadow-none">
+                        <table id="couponRequestList" class="table mb-0 table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Request ID</th>
+                                    <th>ID</th>
+                                    <th>Requested By</th>
+                                    <th>Requested Date</th>
+                                    <th>Status</th>
+                                    <th>Approved By</th>
+                                    <th>Approval Date</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div id="CouponRequestListPaging" class="w-100 px-0 d-inline-block"></div>
+                    <div id="noRecordsMessage" class="text-center py-3" style="display:none;">No record found.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+@section scripts {
+
+    <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.bootstrap5.js"></script>
+    <script src='https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js'></script>
+    <script>
+      // Parse C# Model Data into JavaScript
+      var couponRequestList = @Html.Raw(Json.Serialize(Model));
+        //  console.log('couponRequestList',couponRequestList)
+    </script>
+    <script src="/js/couponRequestList.js"></script>
+    <script src="/js/frontendNotification.js"></script>
+
+}
